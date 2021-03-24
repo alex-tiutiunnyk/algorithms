@@ -82,17 +82,6 @@ public class lab2MergeSort {
         long time2 = stopTime2 - startTime2;
         System.out.println("Execution time: " + time2 + " nanoseconds");
 
-
-
-        sortDescendingArr(a);
-        System.out.println(Arrays.toString(a));
-
-        long startTime3 = System.nanoTime();
-
-        mergeSort(0, a.length - 1);
-        long stopTime3 = System.nanoTime();
-        long time3 = stopTime3 - startTime3;
-        System.out.println("Execution time: " + time3 + " nanoseconds");
     }
 }
 
